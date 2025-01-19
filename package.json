@@ -1,0 +1,27 @@
+{
+  "name": "mail-sender",
+  "version": "1.0.0",
+  "description": "an script to send email to your friends",
+  "homepage": "https://github.com/Sarahnajat/mail-sender#readme",
+  "bugs": {
+    "url": "https://github.com/Sarahnajat/mail-sender/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Sarahnajat/mail-sender.git"
+  },
+  "license": "ISC",
+  "author": "sarah najat",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "chalk": "^5.4.1",
+    "cli-cursor": "^5.0.0",
+    "inquirer": "^9.3.7",
+    "nodemailer": "^6.9.16",
+    "nodemon": "^3.1.9"
+  }
+}
